@@ -25,4 +25,12 @@ public class Banco {
         System.out.println("NUMERO: " + this.numero);
     }
 
+	public ArrayList<Cliente> getListaClientes() {
+		return listaClientes;
+	}
+
+	public void setListaClientes(ArrayList<Cliente> listaClientes) {
+		this.listaClientes = listaClientes;
+	}
+
 }
